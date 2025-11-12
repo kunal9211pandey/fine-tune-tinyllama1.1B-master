@@ -1,0 +1,44 @@
+{
+  "global_step": 5,
+  "epoch": 4,
+  "best_eval_loss": Infinity,
+  "scheduler_state_dict": {
+    "base_lrs": [
+      0.0001
+    ],
+    "last_epoch": 5,
+    "_step_count": 6,
+    "_is_initial": false,
+    "_get_lr_called_within_step": false,
+    "_last_lr": [
+      5e-06
+    ],
+    "lr_lambdas": [
+      {}
+    ]
+  },
+  "config": {
+    "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "max_length": 512,
+    "batch_size": 2,
+    "learning_rate": 0.0001,
+    "num_epochs": 5,
+    "gradient_accumulation_steps": 4,
+    "warmup_steps": 100,
+    "save_steps": 500,
+    "eval_steps": 500,
+    "logging_steps": 50,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "lora_target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "train_file": "data/train.json",
+    "eval_file": "data/eval.json",
+    "max_samples": 1000,
+    "output_dir": "outputs",
+    "run_name": "tinyllama-finetune"
+  }
+}

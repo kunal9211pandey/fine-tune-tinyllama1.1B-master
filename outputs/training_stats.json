@@ -1,0 +1,32 @@
+[
+  {
+    "eval_loss": 13.830974578857422,
+    "eval_perplexity": Infinity,
+    "eval_batches": 2,
+    "step": 1
+  },
+  {
+    "eval_loss": 13.82392692565918,
+    "eval_perplexity": Infinity,
+    "eval_batches": 2,
+    "step": 2
+  },
+  {
+    "eval_loss": 13.809813022613525,
+    "eval_perplexity": Infinity,
+    "eval_batches": 2,
+    "step": 3
+  },
+  {
+    "eval_loss": 13.788734436035156,
+    "eval_perplexity": Infinity,
+    "eval_batches": 2,
+    "step": 4
+  },
+  {
+    "eval_loss": 13.760500431060791,
+    "eval_perplexity": Infinity,
+    "eval_batches": 2,
+    "step": 5
+  }
+]

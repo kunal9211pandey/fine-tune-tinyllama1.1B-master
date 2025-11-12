@@ -1,0 +1,17 @@
+[
+  {
+    "instruction": "Explain what artificial intelligence is",
+    "input": "",
+    "output": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn like humans. AI systems can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. AI can be categorized into narrow AI (designed for specific tasks) and general AI (theoretical human-level intelligence across all domains). Modern AI applications include virtual assistants, recommendation systems, autonomous vehicles, and medical diagnosis tools."
+  },
+  {
+    "instruction": "Convert this temperature from Celsius to Fahrenheit",
+    "input": "25°C",
+    "output": "To convert 25°C to Fahrenheit, I'll use the formula: F = (C × 9/5) + 32\n\nF = (25 × 9/5) + 32\nF = (25 × 1.8) + 32\nF = 45 + 32\nF = 77°F\n\nTherefore, 25°C equals 77°F."
+  },
+  {
+    "instruction": "Write a haiku about autumn",
+    "input": "",
+    "output": "Crimson leaves falling\nWhispering through crisp cool air\nNature's gentle sleep"
+  }
+]

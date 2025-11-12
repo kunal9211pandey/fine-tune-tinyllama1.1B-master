@@ -1,0 +1,8 @@
+{
+  "total_steps": 5,
+  "epochs_completed": 5,
+  "best_eval_loss": Infinity,
+  "best_checkpoint": null,
+  "final_checkpoint": "outputs\\final",
+  "training_stats_file": "outputs\\training_stats.json"
+}

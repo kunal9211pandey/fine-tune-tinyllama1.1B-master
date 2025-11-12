@@ -1,0 +1,28 @@
+model:
+  name: 'TinyLlama/TinyLlama-1.1B-Chat-v1.0'
+  max_length: 512
+
+training:
+  batch_size: 4
+  learning_rate: 2e-4
+  num_epochs: 3
+  gradient_accumulation_steps: 4
+  warmup_steps: 100
+  save_steps: 500
+  eval_steps: 500
+  logging_steps: 50
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.1
+  target_modules: ['q_proj', 'v_proj']
+
+data:
+  train_file: 'data/train.json'
+  eval_file: 'data/eval.json'
+  max_samples: 1000
+
+output:
+  output_dir: 'outputs'
+  run_name: 'tinyllama-finetune'
