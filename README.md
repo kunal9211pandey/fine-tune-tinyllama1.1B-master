@@ -419,6 +419,6 @@ If you use this code in your research, please cite:
   title={TinyLlama Fine-tuning Application},
   author={kunal Pandey},
   year={2025},
-  url={https://github.com/your-username/tinyllama-finetune}
+  url={ https://github.com/kunal9211pandey/fine-tune-tinyllama1.1B-master}
 }
 ```
